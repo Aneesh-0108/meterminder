@@ -1,0 +1,13 @@
+# Local secrets
+.env
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# UCI raw data must remain local
+data/raw/
+
+# Local LEAD audit and benchmark outputs
+data/processed/lead/
